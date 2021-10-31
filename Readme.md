@@ -67,7 +67,7 @@ The following languages have been used on this project:
 
 ## Setup/Installation Requirements
 
-- Live link to view the project <a target="_blank" href="">View News Api</a>
+- Live link to view the project <a target="_blank" href="https://breking-news.herokuapp.com/">View News Api</a>
 
 
 ## Known Bugs

@@ -10,22 +10,20 @@
 
 {% endblock %}
 
-<!-- Content block -->
+
 {% block content%}
 <div class="container">
-<div class="card-header banner">
-    <h1>Habari moto moto</h1>
-    <P class="intro" >This is where you find all the trending news</P>
-</div>
     <div class="row">
         <div class="column">
             <div class="card"></div>
             <h2>Business</h2>
+            <hr>
             {{ macro.displaySourceList(business)}}
         </div>
         <div class="column">
             <div class="card">
             <h2> Technology</h2>
+            <hr>
             {{ macro.displaySourceList(technology)}}
             </div>
         </div>
@@ -34,6 +32,7 @@
         <div class="column">
             <div class="card">
             <h2>Entertainment</h2>
+            <hr>
             {{ macro.displaySourceList(entertainment)}}
            </div>
         </div>
